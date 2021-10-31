@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Client_chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Play Icon -->
+    <string name="play_icon_upper_path_data">M 44 32 L 44 64 L 100 64 L 100 64 Z</string>
+    <string name="play_icon_bottom_path_data">M 44 96 L 44 64 L 100 64 L 100 64 Z</string>
+    <!-- Pause Icon -->
+    <string name="pause_icon_upper_path_data">M 32 40 L 32 56  L 96 56 L 96 40 Z</string>
+    <string name="pause_icon_bottom_path_data">M 32 88 L 32 72 L 96 72 L 96 88 Z</string>
+    <string name="before"> M3,70 l 0, -70 70,70 0,0 -70,70z </string>
+    <string name="after"> M5, 50 l 0, -80 80, 80, 0, 10 -90, 50z</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="send_message">Send message</string>
+    <string name="call_video">Call video</string>
+    <string name="name">Name</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:transcriptMode="normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="5"
+        android:divider="#F6F3F3"
+        android:transcriptMode="normal"
+        android:verticalScrollbarPosition="right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ChoseOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/more"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/ChoseCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/ChoseImgButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="1dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+        <RelativeLayout
+            android:id="@+id/constraint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="2"
+            android:elevation="10dp"
+            tools:ignore="NestedWeights">
+
+            <EditText
+                android:id="@+id/textField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfile"
+                android:hint="Type message"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="1dp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/textField"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textfile"
+                android:onClick="sendMessage"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_send_black_24dp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/Mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="1dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mic2"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclUser_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="4"
+        android:divider="#F6F3F3"
+        android:transcriptMode="normal"
+        android:verticalScrollbarPosition="right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ChoseOtherID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/more" />
+
+        <ImageButton
+            android:id="@+id/ChoseCameraID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/ChoseImgButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="1dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image" />
+
+        <ImageButton
+            android:id="@+id/MicID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="1dp"
+            android:background="@drawable/textwhite"
+            android:onClick="sendMessage"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mic2" />
+
+        <RelativeLayout
+            android:id="@+id/constraint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="2"
+            android:elevation="10dp"
+            tools:ignore="NestedWeights">
+
+            <EditText
+                android:id="@+id/textFieldID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfile"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Type message"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="1dp"
+                android:text="" />
+
+            <ImageButton
+                android:id="@+id/sendButtonID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/textFieldID"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textfile"
+                android:onClick="sendMessage"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_send_black_24dp" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/LikeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/textwhite"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/like"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textField" />
+    </LinearLayout>
+</LinearLayout>

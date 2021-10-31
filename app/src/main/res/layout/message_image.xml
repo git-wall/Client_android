@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingVertical="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/alochat" />
+
+    <TextView
+        android:id="@+id/theirMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_toEndOf="@+id/avatar"
+        android:background="@drawable/their_message"
+        android:elevation="10dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/theirImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@id/theirMessage"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/avatar"
+        android:saveEnabled="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alochat" />
+
+    <me.jagar.chatvoiceplayerlibrary.VoicePlayerView
+        android:id="@+id/theirVoicePlayerView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_toEndOf="@+id/avatar"
+        app:enableVisualizer="true"
+        app:playPauseBackgroundColor="#00BCD4"
+        app:playPauseCornerRadius="70"
+        app:playProgressbarColor="#ff7700"
+        app:progressTimeColor="#000"
+        app:seekBarProgressColor="#000"
+        app:seekBarThumbColor="#FFC107"
+        app:shareBackgroundColor="#ff7700"
+        app:showShareButton="false"
+        app:showTiming="true"
+        app:timingBackgroundColor="#FFFFFF"
+        app:viewBackground="#C6C4CF"
+        app:viewCornerRadius="100"
+        app:visualizationNotPlayedColor="#727171"
+        app:visualizationPlayedColor="#ff7700" />
+
+    <TextView
+        android:id="@+id/myMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/my_message"
+        android:elevation="10dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/myImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@id/myMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alochat" />
+
+    <me.jagar.chatvoiceplayerlibrary.VoicePlayerView
+        android:id="@+id/myVoicePlayerView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        app:enableVisualizer="false"
+        app:playPauseBackgroundColor="#00BCD4"
+        app:playPauseCornerRadius="70"
+        app:playProgressbarColor="#00BCD4"
+        app:progressTimeColor="#000"
+        app:seekBarProgressColor="#000"
+        app:seekBarThumbColor="#00BCD4"
+        app:shareBackgroundColor="#00BCD4"
+        app:showShareButton="false"
+        app:showTiming="true"
+        app:timingBackgroundColor="#FFFFFF"
+        app:viewBackground="#C6C4CF"
+        app:viewCornerRadius="100"
+        app:visualizationNotPlayedColor="#727171"
+        app:visualizationPlayedColor="#00BCD4" />
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/circle.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/circle2.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/ic_send_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/ic_tag_faces_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/mbackground_color.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/my_message.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/their_message.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable-v24/user_connected.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/circle4.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/circle5_offf.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/circle6.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/ic_baseline_gif_box_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/ic_location.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/khung_vien.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/debug/res/drawable/radio_selectted.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/bottom_shadow.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/button.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/button3.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/circle.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/circle2.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/circle3.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/edittext.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/ic_send_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/ic_tag_faces_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/my_message.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/their_message.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable-v24/user_connected.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/avd_pause_to_play.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/avd_play_to_pause.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/bg_thiennhien_corner.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/bg_white_corner.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/bottom_sheet.xml" value="0.15104166666666666" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/button1.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/button_color2.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/cicol_color.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/circle4.xml" value="0.20052083333333334" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/circle5_offf.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/circle6.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/edit.xml" value="0.17708333333333334" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/edittext.xml" value="0.17708333333333334" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_file_download_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_gif_box_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_meeting_room_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_location.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_send_blue_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/ic_send_blue_40.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/khung_vien.xml" value="0.20625" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/location_30.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/mbackground.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/mbackground_black.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/play_icon.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/play_to_pause_animation.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/radio_normal.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/radio_selector.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/radio_selectted.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/sha_dow.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/text.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textblue1.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textblue_dark.xml" value="0.2703125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textf1.xml" value="0.22239583333333332" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textf2.xml" value="0.22239583333333332" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textfile.xml" value="0.17708333333333334" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/drawable/textwhite.xml" value="0.22239583333333332" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_add_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_add_user2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_choose.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_date_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_gender.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_google_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_intro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_show_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/activity_talk_idactivity.xml" value="0.24010416666666667" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/aleardialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/bottomsheet_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/bottomsheet_installimg.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/emoji_text_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/fragment_intro_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/fragment_intro_2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/google_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/information_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/item_container.xml" value="0.2" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/item_contaner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/item_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/layout_bottom_sheer.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/layout_item_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/layout_message_change.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/layout_mic.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/message_image.xml" value="0.264" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/my_image.xml" value="0.178125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/my_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/sample.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/status_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/their_img.xml" value="0.178125" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/their_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/user_connected.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/view_image_user.xml" value="0.19375" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/layout/view_pager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/menu/context_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/menu/current_place_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Socket_io/Client/app/src/main/res/menu/menu_item.xml" value="0.13802083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
